@@ -1,0 +1,95 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+#start-game {
+    font-size: 10vh;
+    color: teal;
+    background-color: antiquewhite;
+    padding: 5vh 5vw;
+    border-radius: 5vh;
+    border: solid 5px black;
+    cursor: pointer;
+}
+
+#instructions {
+    font-size: 5vh;
+    font-family: Arial, sans-serif;
+}
+
+#game-card-display {
+    width: 50vw;
+    background-color: rgb(80, 79, 81);
+}
+
+.game-card {
+    border: 1px solid black;
+    width: 17.9%;
+    height: 100px;
+    margin: 0.5vw;
+    display: inline-block;
+    cursor: pointer;
+    background-size: contain;
+    background-color: white;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-restart-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    height: 10vh;
+    width: 20vw;
+}
+
+#game-restart-button {
+    font-size: 5vh;
+    color: teal;
+    background-color: antiquewhite;
+    padding: 1vh 5vw;
+    border-radius: 5vh;
+    border: solid 5px black;
+    cursor: pointer;
+    text-align: center;
+    height: 15vh;
+    width: 25vw;
+    align-items: center;
+}
+
+
+#bottom-line {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#score {
+    font-size: 5vh;
+    padding-bottom: 5vh;
+    margin: 2vh 5vh;
+}
+

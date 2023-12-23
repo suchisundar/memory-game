@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="CardGameStyle.css" />
+  </head>
+  <body>
+    <div id="game">
+      <h1>Card Matching Game</h1>
+      <h2 id="start-game" onclick="startGame()">Start Game</h2>
+      <div id="instructions"></div>
+      <div id="score" class="hidden"></div>
+      <div id="game-card-display"></div>
+      <div id="game-restart-container" class="hidden">
+        <h3 id="game-restart-button" onclick="restartGame()">Restart Game</h3>
+      </div>
+    </div>
+    
+    <script src="CardMatch.js"></script>
+  </body>
+</html>
